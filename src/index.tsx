@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename="/todo-react-frontend/">
             <DarkLightTheme/>
         </BrowserRouter>
     </React.StrictMode>
