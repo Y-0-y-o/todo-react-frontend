@@ -1,0 +1,16 @@
+.todoForm {
+  width: 100%;
+  margin-top: 2vh;
+}
+
+@mixin textFieldElements{
+  width: 100%;
+}
+
+.textField {
+  @include textFieldElements;
+}
+
+.taskSubmitButton {
+  @include textFieldElements;
+}

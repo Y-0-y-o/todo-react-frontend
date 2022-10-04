@@ -1,0 +1,20 @@
+{
+  "Language": "Sprache",
+  "English": "Englisch",
+  "German": "Deeutsch",
+  "Main": "Startseite",
+  "list": "Liste",
+  "task_one": "Aufgabe",
+  "task_other": "Aufgaben",
+  "closeForm":  "Formular schließen",
+  "openForm": "Formular öffnen",
+  "noTasks": "Aktuell sind keine Aufgaben verfügbar.",
+  "taskLabel": "Was muss erledigt werden?",
+  "date": "Datum",
+  "time": "Uhrzeit",
+  "whichLanguage": "In welcher Sprache wurde diese Aufgabe verfasst?",
+  "taskLanguage": "Sprache",
+  "taskSubmit": "Aufgabe speichern",
+  "edit": "Bearbeiten",
+  "delete": "Löschen"
+}

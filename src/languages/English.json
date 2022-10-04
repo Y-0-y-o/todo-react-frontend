@@ -1,0 +1,20 @@
+{
+  "Language": "Language",
+  "English": "English",
+  "German": "German",
+  "Main": "Main",
+  "list": "list",
+  "task_one": "task",
+  "task_other": "tasks",
+  "closeForm":  "Close form",
+  "openForm": "Open form",
+  "noTasks": "There are currently no tasks available.",
+  "taskLabel": "What needs to be done?",
+  "date": "Date",
+  "time": "Time",
+  "whichLanguage": "Which language is this task written in?",
+  "taskLanguage": "Task language",
+  "taskSubmit": "Save task",
+  "edit": "Edit",
+  "delete": "Delete"
+}

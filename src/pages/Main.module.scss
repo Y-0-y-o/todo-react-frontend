@@ -1,0 +1,59 @@
+@mixin centerHorizontally {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mainPage {
+  @include centerHorizontally;
+}
+
+@mixin taskPaper {
+  padding: 2vh 2vw;
+  border: 2px solid;
+  margin-top: 2vh;
+}
+
+$breakpoints: (0px, 600px, 900px, 1200px, 1536px);
+
+@mixin responsivePaperWidth {
+  @each $breakpoint in $breakpoints {
+    @media (min-width: #{$breakpoint}) {
+      $index: index($breakpoints, $breakpoint);
+      width: calc(90vw - #{$index - 1} * 10vw);
+    }
+  }
+}
+
+.todoCard {
+  @include taskPaper;
+  @include responsivePaperWidth;
+}
+
+.todoTitle {
+  font-size: large;
+  font-weight: bold;
+}
+
+$red: red;
+$green: green;
+
+@mixin formButton($color) {
+  color: white;
+  background-color: $color;
+  border: 1px solid $color;
+  height: 100%;
+
+  &:hover {
+    background-color: white;
+    color: $color;
+  }
+}
+
+.closeButton {
+  @include formButton($red);
+}
+
+.openButton {
+  @include formButton($green);
+}

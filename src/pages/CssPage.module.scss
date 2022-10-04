@@ -1,0 +1,8 @@
+.moduleSlider {
+  color: cyan;
+  min-width: 100px;
+  width: 10vw;
+  :global .MuiSlider-thumb {
+    border-radius: calc(var(--thumbRadius) / 10);
+  }
+}

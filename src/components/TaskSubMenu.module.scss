@@ -1,0 +1,19 @@
+@use "../pages/Main.module" as app;
+
+.menuIconButton:hover {
+  background-color: gray;
+}
+
+.closeIcon {
+  color: red;
+}
+
+.updateModal {
+  @include app.centerHorizontally;
+  bottom: unset;
+}
+
+.updateModalPaper {
+  @include app.taskPaper;
+  @include app.responsivePaperWidth;
+}
